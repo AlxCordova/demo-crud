@@ -7,7 +7,7 @@ import { from } from 'rxjs';
 })
 export class BusinessService {
 
-  uri = 'http://localhost:4000/business'; //definicion de URL backend api
+  uri = 'https://angularcrud-demo.herokuapp.com/business'; //definicion de URL backend api
 
   constructor(private http: HttpClient) { }
 
